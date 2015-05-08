@@ -1,3 +1,22 @@
+#top {
+    text-align: right;
+    padding: 5px;
+}
+
+.topText {
+    display: inline;
+    font-size: 13px;
+    color: #222;
+    font-family: arial, sans-serif;
+    margin-left: 0!important;
+    margin-right: 0!important;
+    padding-left: 15px;
+}
+
+.topText:hover {
+    text-decoration: underline;
+}
+
 #centerBox {
     position: absolute;
     margin: auto;
