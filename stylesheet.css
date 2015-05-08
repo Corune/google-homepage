@@ -1,20 +1,52 @@
 #top {
+    float: right;
     text-align: right;
     padding: 5px;
 }
 
-.topText {
-    display: inline;
+.topButtons {
+    color: #404040;
     font-size: 13px;
-    color: #222;
-    font-family: arial, sans-serif;
-    margin-left: 0!important;
-    margin-right: 0!important;
-    padding-left: 15px;
 }
 
-.topText:hover {
-    text-decoration: underline;
+#linkList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#linkList li {
+    display: inline;
+}
+
+#gridButton {
+    float: right;
+    height: 30px;
+    width: 30px;
+    background-image: url("https://ssl.gstatic.com/gb/images/i1_71651352.png");
+    background-position: -326px -52px;
+    opacity: .55;
+}
+
+#gridButton a {
+    display: block;
+    height: 30px;
+    width: 30px;
+    cursor: default;
+}
+
+#gridButton:hover {
+    opacity: 1.0;
+}
+
+#topGrid {
+    display: inline-flex;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-image: url('//ssl.gstatic.com/gb/images/i1_71651352.png');
+    height: 30px;
+    width: 30px;
 }
 
 #centerBox {
